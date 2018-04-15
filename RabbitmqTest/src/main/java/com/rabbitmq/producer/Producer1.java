@@ -4,6 +4,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.utils.ConnectUtil;
 import com.rabbitmq.client.Channel;
 public class Producer1 {
+    //队列名称
 	private static String QUEUE_NAME = "test_queue";
 	public static void main(String[] argv) throws Exception{
 		//获得连接
